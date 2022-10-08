@@ -29,7 +29,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name="dt_veiculos", schema = "fmba")
+@Table(name="dt_veiculos")
 public class Veiculo implements Serializable {
 
 	/**
