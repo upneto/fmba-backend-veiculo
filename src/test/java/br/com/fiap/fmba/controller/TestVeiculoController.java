@@ -17,6 +17,7 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.http.ResponseEntity;
 
+import br.com.fiap.fmba.controller.api.VeiculoController;
 import br.com.fiap.fmba.controller.payload.VeiculoPayload;
 import br.com.fiap.fmba.persistence.model.Veiculo;
 import br.com.fiap.fmba.resources.exception.DaoException;
@@ -57,7 +58,7 @@ public class TestVeiculoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.VeiculoController#findAll()}.
+	 * {@link br.com.fiap.fmba.controller.api.VeiculoController#findAll()}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -77,7 +78,7 @@ public class TestVeiculoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.VeiculoController#findBy(long)}.
+	 * {@link br.com.fiap.fmba.controller.api.VeiculoController#findBy(long)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -94,7 +95,7 @@ public class TestVeiculoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.VeiculoController#insert(br.com.fiap.fmba.persistence.model.Veiculo)}.
+	 * {@link br.com.fiap.fmba.controller.api.VeiculoController#insert(br.com.fiap.fmba.persistence.model.Veiculo)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -108,7 +109,7 @@ public class TestVeiculoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.VeiculoController#update(br.com.fiap.fmba.persistence.model.Veiculo)}.
+	 * {@link br.com.fiap.fmba.controller.api.VeiculoController#update(br.com.fiap.fmba.persistence.model.Veiculo)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -121,7 +122,7 @@ public class TestVeiculoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.VeiculoController#delete(long)}.
+	 * {@link br.com.fiap.fmba.controller.api.VeiculoController#delete(long)}.
 	 * @throws DaoException 
 	 */
 	@Test
